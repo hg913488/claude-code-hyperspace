@@ -67,6 +67,12 @@ https://github.com/user-attachments/assets/b72a51fb-f554-46c9-ac07-de7a9e1a8e67
 
 A 20-second clip of a turn in hyperspace.
 
+## More Claude Code mods
+
+- [Retro Chat](https://github.com/hg913488/claude-code-retro-skins): iMessage, MSN, AIM and IRC skins for your chat
+- [Agent Status](https://github.com/hg913488/claude-code-agent-status): a side panel showing what every subagent is doing
+- [Remind](https://github.com/hg913488/claude-code-reminders): "remind me to…" with due dates above the prompt
+
 ---
 
 MIT licensed. Made by [HG](https://github.com/hg913488). An original homage to space opera; not affiliated with any film or studio.
