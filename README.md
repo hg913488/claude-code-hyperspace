@@ -63,9 +63,9 @@ Yes. The stars and the blade are drawn in the terminal and in the desktop app.
 
 ## Watch it
 
-[![A 20-second clip of a turn in hyperspace](assets/screens/film-poster.jpg)](assets/hyperspace-tour.mp4)
+https://github.com/user-attachments/assets/b72a51fb-f554-46c9-ac07-de7a9e1a8e67
 
-A 20-second clip of a turn in hyperspace. Click to play.
+A 20-second clip of a turn in hyperspace.
 
 ---
 
