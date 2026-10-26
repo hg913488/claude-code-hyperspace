@@ -1,0 +1,10 @@
+{
+  "name": "hyperspace",
+  "version": "0.1.0",
+  "description": "Space-opera words for the Claude Code spinner, stars flying past, and a blade that ignites on the turn-time line",
+  "author": { "name": "HG", "url": "https://github.com/hg913488" },
+  "homepage": "https://github.com/hg913488/claude-code-hyperspace",
+  "repository": "https://github.com/hg913488/claude-code-hyperspace",
+  "license": "MIT",
+  "keywords": ["spinner", "sci-fi", "space", "hyperspace", "theme", "terminal", "fun"]
+}

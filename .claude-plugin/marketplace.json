@@ -1,0 +1,6 @@
+{
+  "name": "hyperspace",
+  "owner": { "name": "HG" },
+  "description": "Space-opera words for the Claude Code spinner and a blade that ignites when a turn ends.",
+  "plugins": [{ "name": "hyperspace", "source": "./" }]
+}

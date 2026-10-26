@@ -1,0 +1,31 @@
+# Hyperspace
+
+> A Claude Code mod that swaps the spinner's words for space-opera ones, flies stars past them, and lights a blade on the line that shows how long Claude took.
+
+Hyperspace only changes what is drawn in the terminal and the desktop app; it does not change what Claude does. One phrase is picked per turn so the words do not flicker. It steps aside while a Retro Chat skin is on. MIT licensed.
+
+Install in Claude Code:
+
+```
+/plugin install hyperspace --marketplace hg913488/claude-code-hyperspace
+```
+
+Uninstall with `/plugin uninstall hyperspace`.
+
+## Docs
+
+- [README](https://github.com/hg913488/claude-code-hyperspace/blob/main/README.md): what changes, install, FAQ
+- [AGENTS.md](https://github.com/hg913488/claude-code-hyperspace/blob/main/AGENTS.md): layout, how it works, and checks for coding agents
+- [LICENSE](https://github.com/hg913488/claude-code-hyperspace/blob/main/LICENSE): MIT
+
+## Source
+
+- [hooks/register.tsx](https://github.com/hg913488/claude-code-hyperspace/blob/main/hooks/register.tsx): word lists and render handlers
+- [hooks/stars.tsx](https://github.com/hg913488/claude-code-hyperspace/blob/main/hooks/stars.tsx): the spinner's stars
+- [hooks/blade.tsx](https://github.com/hg913488/claude-code-hyperspace/blob/main/hooks/blade.tsx): the closing line's blade
+- [tests/words.test.tsx](https://github.com/hg913488/claude-code-hyperspace/blob/main/tests/words.test.tsx): tests and the banned-name list
+
+## Optional
+
+- [plugin.json](https://github.com/hg913488/claude-code-hyperspace/blob/main/.claude-plugin/plugin.json): plugin manifest
+- [marketplace.json](https://github.com/hg913488/claude-code-hyperspace/blob/main/.claude-plugin/marketplace.json): marketplace listing
