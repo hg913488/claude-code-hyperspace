@@ -9,7 +9,7 @@ Hyperspace is a Claude Code mod (plugin, install name `hyperspace`). It swaps th
 - `hooks/blade.tsx`: client module for the closing line (hilt, blade igniting, text, time).
 - `hooks/hooks.json`: lists `./register.tsx` as the module.
 - `tests/words.test.tsx`: checks the word lists and renders both surfaces.
-- `.claude-plugin/`: `plugin.json`, `marketplace.json`, `icon.png`, and `types/` (type declarations for the `claude-code` module that `tsconfig.json` extends).
+- `.claude-plugin/`: `plugin.json`, `marketplace.json`, `icon.png`, and `types/` (type declarations for the `claude-code` module that `tsconfig.json` extends). Claude Code writes `types/` when it loads the mod; it is not committed.
 - `assets/`: images for the README and social preview.
 
 ## How it works
@@ -29,7 +29,7 @@ npx -y -p typescript@5.6.3 tsc --noEmit -p .
 claude plugin validate .
 ```
 
-The plugin test should report 2 passed, 0 failed. `tsc` should print nothing.
+The plugin test should report 2 passed, 0 failed. `tsc` should print nothing. In a fresh clone `tsc` cannot find `.claude-plugin/types/` until Claude Code has loaded the mod once (for example with `claude --plugin-dir .`).
 
 ## Conventions
 
