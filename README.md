@@ -12,7 +12,7 @@
 
 <p align="center"><a href="#install">Install</a> · <a href="#what-it-looks-like">What it looks like</a> · <a href="#faq">FAQ</a> · <a href="#watch-it">Watch the tour</a></p>
 
-<p align="center"><img src="assets/hyperspace.gif" alt="The Claude Code spinner with stars flying past, then a blade igniting on "Jumped to hyperspace in 10s""></p>
+<p align="center"><img src="assets/hyperspace.gif" alt="The Claude Code spinner with stars flying past, then a blade igniting on 'Jumped to hyperspace in 10s'"></p>
 
 ## Install
 
